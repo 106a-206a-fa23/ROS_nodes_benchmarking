@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    should_plot: True  # for plotting live performance
+    should_publish: True
+    publish_topic: "performance_data"
+    frequency: 5  # Hz
+    max_plot_time: 6
+    all_process_str: "ALL_PROCESSES"
+    ros_process_str: "ROS_PROCESSES"
+    ignore_all_process: True
+    ignore_ros_process: True
